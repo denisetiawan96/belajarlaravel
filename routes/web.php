@@ -17,6 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    return view('coba');
+});
+
+Route::get('/', function () {
+    return view('template');
+});
+
+Route::get('/', function () {
+    return view('dashboard');
+});
+
+Route::get('/', function () {
+    return view('button');
+});
 
 Route::get('tampildata', function() {
     $data = ['php', 'java', 'c', 'javascript', 'dart'];
